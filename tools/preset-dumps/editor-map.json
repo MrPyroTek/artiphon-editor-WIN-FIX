@@ -1,0 +1,74 @@
+[
+  {
+    "editor": "fretted_string/strum",
+    "setOk": true,
+    "persisted_fb": "string",
+    "persisted_br": "pluck",
+    "persisted_fl": false,
+    "name": "fretted_string_strum"
+  },
+  {
+    "editor": "fretted_string/press",
+    "setOk": true,
+    "persisted_fb": "string",
+    "persisted_br": "press",
+    "persisted_fl": false,
+    "name": "fretted_string_press"
+  },
+  {
+    "editor": "fretted_string/bow",
+    "setOk": true,
+    "persisted_fb": "string",
+    "persisted_br": "bow",
+    "persisted_fl": false,
+    "name": "fretted_string_bow"
+  },
+  {
+    "editor": "fretless_string/strum",
+    "setOk": true,
+    "persisted_fb": "string",
+    "persisted_br": "pluck",
+    "persisted_fl": true,
+    "name": "fretless_string_stru"
+  },
+  {
+    "editor": "fretless_string/slide",
+    "setOk": true,
+    "persisted_fb": "string",
+    "persisted_br": "slide",
+    "persisted_fl": true,
+    "name": "fretless_string_slid"
+  },
+  {
+    "editor": "grid/press",
+    "setOk": true,
+    "persisted_fb": "keyboard",
+    "persisted_br": "press",
+    "persisted_fl": false,
+    "name": "grid_press"
+  },
+  {
+    "editor": "grid/press_as_pad",
+    "setOk": true,
+    "persisted_fb": "pad",
+    "persisted_br": "press",
+    "persisted_fl": false,
+    "name": "grid_press_as_pad"
+  },
+  {
+    "editor": "pad/press",
+    "setOk": true,
+    "persisted_fb": "pad",
+    "persisted_br": "press",
+    "persisted_fl": false,
+    "name": "pad_press"
+  },
+  {
+    "editor": "pad/strum",
+    "setOk": true,
+    "persisted_fb": "pad",
+    "persisted_br": "pluck",
+    "persisted_fl": false,
+    "name": "pad_strum"
+  }
+]

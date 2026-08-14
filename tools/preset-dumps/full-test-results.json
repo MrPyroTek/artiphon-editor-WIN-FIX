@@ -1,0 +1,703 @@
+{
+  "fw": "1.0.23",
+  "modes": [
+    {
+      "fb": "string",
+      "br": "pluck",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "pluck",
+      "fretless": true,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "press",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "press",
+      "fretless": true,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "bow",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "bow",
+      "fretless": true,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "slide",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "string",
+      "br": "slide",
+      "fretless": true,
+      "ok": true
+    },
+    {
+      "fb": "keyboard",
+      "br": "pluck",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "keyboard",
+      "br": "press",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "keyboard",
+      "br": "bow",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "keyboard",
+      "br": "slide",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "pad",
+      "br": "pluck",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "pad",
+      "br": "press",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "pad",
+      "br": "bow",
+      "fretless": false,
+      "ok": true
+    },
+    {
+      "fb": "pad",
+      "br": "slide",
+      "fretless": false,
+      "ok": true
+    }
+  ],
+  "params": [
+    {
+      "key": "tuning_name",
+      "want": "FullProbeTune",
+      "got": "FullProbeTune",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "bridgeboard_tuning",
+      "want": [
+        40,
+        45,
+        50,
+        55,
+        59,
+        64
+      ],
+      "got": [
+        40,
+        45,
+        50,
+        55,
+        59,
+        64
+      ],
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "fingerboard_tuning",
+      "want": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "got": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "string_flip",
+      "want": "always_left",
+      "got": "always_left",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "string_flip",
+      "want": "always_right",
+      "got": "always_right",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "string_flip",
+      "want": "accel_flip",
+      "got": "accel_flip",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "transpose_step",
+      "want": 0,
+      "got": 0,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "transpose_step",
+      "want": 3,
+      "got": 3,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "arpeggiator",
+      "want": true,
+      "got": true,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "arpeggiator",
+      "want": false,
+      "got": false,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "sound_profile",
+      "want": 0,
+      "got": 0,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "sound_profile",
+      "want": 5,
+      "got": 5,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "sound_profile",
+      "want": 12,
+      "got": 12,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "twelve_string",
+      "want": true,
+      "got": true,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "twelve_string",
+      "want": false,
+      "got": false,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammer_on",
+      "want": false,
+      "got": false,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammer_on",
+      "want": true,
+      "got": true,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "pulloff_open_string",
+      "want": false,
+      "got": false,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "pulloff_open_string",
+      "want": true,
+      "got": true,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "channel_mode",
+      "want": "six_channel",
+      "got": "six_channel",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "channel_mode",
+      "want": "single_channel",
+      "got": "six_channel",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 1727
+      }
+    },
+    {
+      "key": "channel_mode",
+      "want": "one_channel",
+      "got": "one_channel",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "channel_mode",
+      "want": "mono",
+      "got": "one_channel",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 1727
+      }
+    },
+    {
+      "key": "fret_pressure_message",
+      "want": "poly_press",
+      "got": "poly_press",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "fret_pressure_message",
+      "want": "none",
+      "got": "none",
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "fret_pressure_message",
+      "want": "channel_press",
+      "got": "none",
+      "setOk": true,
+      "same": false
+    },
+    {
+      "key": "fret_pressure_message",
+      "want": "aftertouch",
+      "got": "none",
+      "setOk": true,
+      "same": false
+    },
+    {
+      "key": "bridge_decay_time",
+      "want": 500,
+      "got": 500,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "bridge_decay_time",
+      "want": 2000,
+      "got": 2000,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammerdown_resting_threshold",
+      "want": 10,
+      "got": 10,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammerdown_resting_threshold",
+      "want": 80,
+      "got": 80,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammerdown_active_threshold",
+      "want": 5,
+      "got": 5,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "hammerdown_active_threshold",
+      "want": 60,
+      "got": 60,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "strum_channel",
+      "want": 0,
+      "got": 0,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "strum_channel",
+      "want": 5,
+      "got": 5,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "fret_channel",
+      "want": 0,
+      "got": 0,
+      "setOk": true,
+      "same": true
+    },
+    {
+      "key": "fret_channel",
+      "want": 5,
+      "got": 5,
+      "setOk": true,
+      "same": true
+    }
+  ],
+  "beziers": [
+    {
+      "key": "note_on_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    },
+    {
+      "key": "sustain_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    },
+    {
+      "key": "aftertouch_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    },
+    {
+      "key": "hammerdown_old_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    },
+    {
+      "key": "hammerdown_new_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    },
+    {
+      "key": "pulloff_bezier",
+      "setOk": false,
+      "same": false,
+      "err": {
+        "line": 2114
+      }
+    }
+  ],
+  "enums": [],
+  "editorMaps": [
+    {
+      "name": "fretted/strum",
+      "ok": true,
+      "got": [
+        "string",
+        "pluck",
+        false
+      ]
+    },
+    {
+      "name": "fretted/press",
+      "ok": true,
+      "got": [
+        "string",
+        "press",
+        false
+      ]
+    },
+    {
+      "name": "fretted/bow",
+      "ok": true,
+      "got": [
+        "string",
+        "bow",
+        false
+      ]
+    },
+    {
+      "name": "fretted/slide",
+      "ok": true,
+      "got": [
+        "string",
+        "slide",
+        false
+      ]
+    },
+    {
+      "name": "fretless/strum",
+      "ok": true,
+      "got": [
+        "string",
+        "pluck",
+        true
+      ]
+    },
+    {
+      "name": "fretless/press",
+      "ok": true,
+      "got": [
+        "string",
+        "press",
+        true
+      ]
+    },
+    {
+      "name": "fretless/bow",
+      "ok": true,
+      "got": [
+        "string",
+        "bow",
+        true
+      ]
+    },
+    {
+      "name": "fretless/slide",
+      "ok": true,
+      "got": [
+        "string",
+        "slide",
+        true
+      ]
+    },
+    {
+      "name": "grid/press=keyboard",
+      "ok": true,
+      "got": [
+        "keyboard",
+        "press",
+        false
+      ]
+    },
+    {
+      "name": "pad/press",
+      "ok": true,
+      "got": [
+        "pad",
+        "press",
+        false
+      ]
+    },
+    {
+      "name": "pad/strum=pluck",
+      "ok": true,
+      "got": [
+        "pad",
+        "pluck",
+        false
+      ]
+    },
+    {
+      "name": "pad/bow",
+      "ok": true,
+      "got": [
+        "pad",
+        "bow",
+        false
+      ]
+    },
+    {
+      "name": "pad/slide",
+      "ok": true,
+      "got": [
+        "pad",
+        "slide",
+        false
+      ]
+    }
+  ],
+  "ofc": {
+    "ok": true,
+    "fb": "keyboard",
+    "br": "press"
+  }
+}

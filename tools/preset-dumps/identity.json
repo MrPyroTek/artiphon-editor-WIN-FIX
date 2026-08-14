@@ -1,0 +1,16 @@
+{
+  "msgid": 1,
+  "cmd": "response",
+  "data": {
+    "identity": {
+      "manufacturer": "Artiphon",
+      "name": "INSTRUMENT1",
+      "model_number": "900-00002",
+      "serial_number": "L16410241",
+      "hardware_version": "P1",
+      "firmware_version": "1.0.23",
+      "bb_firmware_version": "1.0.1",
+      "fb_firmware_version": "1.0.1"
+    }
+  }
+}

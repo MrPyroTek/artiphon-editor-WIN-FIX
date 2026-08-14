@@ -1,0 +1,178 @@
+[
+  {
+    "want_fb": "string",
+    "want_br": "pluck",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "pluck",
+    "got_fretless": false,
+    "got_name": "T_string_pluck",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "pluck",
+    "want_fretless": true,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "pluck",
+    "got_fretless": true,
+    "got_name": "T_string_pluck_fl",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "press",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "press",
+    "got_fretless": false,
+    "got_name": "T_string_press",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "press",
+    "want_fretless": true,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "press",
+    "got_fretless": true,
+    "got_name": "T_string_press_fl",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "bow",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "bow",
+    "got_fretless": false,
+    "got_name": "T_string_bow",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "bow",
+    "want_fretless": true,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "bow",
+    "got_fretless": true,
+    "got_name": "T_string_bow_fl",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "slide",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "slide",
+    "got_fretless": false,
+    "got_name": "T_string_slide",
+    "match": true
+  },
+  {
+    "want_fb": "string",
+    "want_br": "slide",
+    "want_fretless": true,
+    "setOk": true,
+    "got_fb": "string",
+    "got_br": "slide",
+    "got_fretless": true,
+    "got_name": "T_string_slide_fl",
+    "match": true
+  },
+  {
+    "want_fb": "keyboard",
+    "want_br": "pluck",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "keyboard",
+    "got_br": "pluck",
+    "got_fretless": false,
+    "got_name": "T_keyboard_pluck",
+    "match": true
+  },
+  {
+    "want_fb": "keyboard",
+    "want_br": "press",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "keyboard",
+    "got_br": "press",
+    "got_fretless": false,
+    "got_name": "T_keyboard_press",
+    "match": true
+  },
+  {
+    "want_fb": "keyboard",
+    "want_br": "bow",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "keyboard",
+    "got_br": "bow",
+    "got_fretless": false,
+    "got_name": "T_keyboard_bow",
+    "match": true
+  },
+  {
+    "want_fb": "keyboard",
+    "want_br": "slide",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "keyboard",
+    "got_br": "slide",
+    "got_fretless": false,
+    "got_name": "T_keyboard_slide",
+    "match": true
+  },
+  {
+    "want_fb": "pad",
+    "want_br": "pluck",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "pad",
+    "got_br": "pluck",
+    "got_fretless": false,
+    "got_name": "T_pad_pluck",
+    "match": true
+  },
+  {
+    "want_fb": "pad",
+    "want_br": "press",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "pad",
+    "got_br": "press",
+    "got_fretless": false,
+    "got_name": "T_pad_press",
+    "match": true
+  },
+  {
+    "want_fb": "pad",
+    "want_br": "bow",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "pad",
+    "got_br": "bow",
+    "got_fretless": false,
+    "got_name": "T_pad_bow",
+    "match": true
+  },
+  {
+    "want_fb": "pad",
+    "want_br": "slide",
+    "want_fretless": false,
+    "setOk": true,
+    "got_fb": "pad",
+    "got_br": "slide",
+    "got_fretless": false,
+    "got_name": "T_pad_slide",
+    "match": true
+  }
+]

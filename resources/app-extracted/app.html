@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>try{var g=Function('return this')();if(typeof g.globalThis==='undefined')g.globalThis=g}catch(e){}</script>
+    <meta charset="utf-8">
+   
+    <title>Artiphon INSTRUMENT 1 Editor</title>
+    
+    
+    <script>
+      (function() {
+        if (!process.env.HOT) {
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = './dist/style.css';
+          document.getElementsByTagName('head')[0].appendChild(link);
+        }
+      }());
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      {
+        const script = document.createElement('script');
+        const port = process.env.PORT || 3000;
+        script.src = (process.env.HOT)
+          ? 'http://localhost:' + port + '/dist/bundle.js'
+          : './dist/bundle.js';
+        // HACK: Writing the script path should be done with webpack
+        document.body.appendChild(script);
+      }
+    </script>
+  <script>
+(function(){
+  function ready(fn){ if(document.readyState!=='loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  ready(function(){
+    var tip=document.createElement('div');
+    tip.className='artiphon-tooltip';
+    document.body.appendChild(tip);
+    var timer=null, current=null;
+    function hide(){ tip.classList.remove('is-on'); current=null; }
+    function show(el, text, ev){
+      if(!text) return;
+      tip.textContent=text;
+      tip.classList.add('is-on');
+      current=el;
+      var tw=tip.offsetWidth||200, th=tip.offsetHeight||40;
+      tip.style.left=Math.max(8, Math.min(window.innerWidth-tw-8, ev.clientX+14))+'px';
+      tip.style.top=Math.max(8, Math.min(window.innerHeight-th-8, ev.clientY+14))+'px';
+    }
+    function findHit(el){
+      var n=el;
+      while(n && n!==document.body){
+        if(n.getAttribute){
+          var t=n.getAttribute('data-tip')||n.getAttribute('title');
+          if(t) return {el:n, text:t};
+        }
+        n=n.parentNode;
+      }
+      return null;
+    }
+    document.addEventListener('mouseover', function(ev){
+      var hit=findHit(ev.target);
+      if(!hit){ clearTimeout(timer); if(current) hide(); return; }
+      if(hit.el.getAttribute('title')){
+        hit.el.setAttribute('data-tip', hit.el.getAttribute('title'));
+        hit.el.removeAttribute('title');
+      }
+      clearTimeout(timer);
+      var text=hit.el.getAttribute('data-tip')||hit.text;
+      timer=setTimeout(function(){ show(hit.el, text, ev); }, 120);
+    }, true);
+    document.addEventListener('mousemove', function(ev){
+      if(!current || !tip.classList.contains('is-on')) return;
+      var tw=tip.offsetWidth||200, th=tip.offsetHeight||40;
+      tip.style.left=Math.max(8, Math.min(window.innerWidth-tw-8, ev.clientX+14))+'px';
+      tip.style.top=Math.max(8, Math.min(window.innerHeight-th-8, ev.clientY+14))+'px';
+    }, true);
+    document.addEventListener('mouseout', function(ev){
+      if(!current) return;
+      var to=ev.relatedTarget;
+      if(to && current.contains && current.contains(to)) return;
+      clearTimeout(timer);
+      hide();
+    }, true);
+  });
+})();
+</script>
+</body>
+</html>

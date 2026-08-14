@@ -1,0 +1,15 @@
+{
+  "name": "artiphon-editor",
+  "productName": "Artiphon INSTRUMENT 1 Editor",
+  "version": "1.0.20",
+  "description": "Artiphon Preset Editor for INSTRUMENT 1",
+  "main": "./main.js",
+  "author": {
+    "name": "Artiphon Inc.",
+    "email": "contact@artiphon.com",
+    "url": "http://artiphon.com"
+  },
+ 
+  "dependencies": {
+  }
+}

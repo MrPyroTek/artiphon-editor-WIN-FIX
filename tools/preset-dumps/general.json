@@ -1,0 +1,21 @@
+{
+  "arpeggiator_bpm": 240,
+  "battery_level_threshold": [
+    0,
+    887,
+    903,
+    995
+  ],
+  "fingerboard_press_threshold": 3,
+  "fingerboard_release_threshold": 2,
+  "fingerboard_debounce_time": 15,
+  "bridgeboard_press_threshold": 3,
+  "bridgeboard_release_threshold": 2,
+  "bridgeboard_debounce_time": 20,
+  "volume_speaker": 127,
+  "volume_headphone": 127,
+  "volume_mic": 100,
+  "mic_boost": false,
+  "jack_sense_bypass": false,
+  "mpe_mode": false
+}
